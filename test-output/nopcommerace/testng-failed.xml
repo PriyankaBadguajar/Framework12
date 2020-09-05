@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerace]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.utility.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="TC_LoginPage_001(failed)" parallel="tests">
+    <classes>
+      <class name="com.testcases.TC_LoginPage_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.testcases.TC_LoginPage_001 -->
+    </classes>
+  </test> <!-- TC_LoginPage_001(failed) -->
+</suite> <!-- Failed suite [nopcommerace] -->

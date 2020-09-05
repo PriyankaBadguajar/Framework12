@@ -1,0 +1,11 @@
+com\testcases\TC_LoginDDT_002.class
+com\testcases\TC_SearchCustomerByEmail_004.class
+com\utility\BaseClass.class
+com\Pages\SearchCustomerPage.class
+com\Pages\LoginPage.class
+com\testcases\TC_AddCustomerTest_003.class
+com\Pages\AddCustomerPage.class
+com\testcases\TC_SearchCustomerByName_005.class
+com\utility\ExtentReport.class
+com\utility\XLUtils.class
+com\testcases\TC_LoginPage_001.class
